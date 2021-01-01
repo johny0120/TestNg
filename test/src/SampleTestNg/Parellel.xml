@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name= "Test Suite" verbose="2" parallel="methods" thread-count="2">
+<test name ="Test Cases">
+
+<classes>
+
+<class name = "SampleTestNg.parellelTesting">
+
+
+</class>
+
+
+</classes>
+
+</test>
+</suite>

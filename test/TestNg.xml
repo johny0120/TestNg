@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<suite name= "Test Suite" verbose="2">
+
+<test name ="Test Cases">
+<groups>
+
+<run>
+ <include name="moto"></include>
+  <include name="VIVO"></include>
+ </run></groups>
+
+<classes>
+
+
+<class name="SampleTestNg.GroupingExamples"></class>
+
+
+</classes>
+
+</test>
+ 
+</suite>
+<!-- <class name="SampleTestNg.Day4LaunchBrowser"></class>
+<class name="SampleTestNg.Day3Dependencies"></class>
+<class name="SampleTestNg.Day2SkipTestCases"></class>
+<class name="SampleTestNg.Day1TestNg"></class>
+ -->
